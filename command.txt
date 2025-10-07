@@ -1,0 +1,41 @@
+--crear
+git init
+git status
+--changes
+git add .
+git commit -m "Commit"
+git push
+--veure historial commits
+git log
+--desfer
+git reset <fitxer> : treure add
+git restore <fitxer>: desfer canvis en el directori de treball local, lo que es toca en el fitxer si hi ha canvis
+git commit --amend :modifica ultim
+--clonar
+git clone <adressa>	clona un repository existent
+--
+git remote add origin
+--fitxers especials
+.gitignore
+README.md
+LICENSE
+--branch
+git branch	veure les branques
+git branch <name_branch>	veure la branca
+git checkout	canviar/crear brancha si no existeix
+git checkout -b name
+git branch -d	elimina la branca
+--fusio de branques
+git merge <branca_a_fusionar>
+--stash
+git stash
+git stash pop
+--
+git rebase -i <name>
+--crear tag lighweight
+git tag <name>		crear tag
+git tag			mirar tags
+git tag -n		mirar comment
+git push --tags		commit tag github
+--tag annotated
+git tag -a <name> -m "comment"
